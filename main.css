@@ -1,0 +1,60 @@
+body {
+    background-color: #232323;
+    text-align: center;
+    margin-top: 0; 
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    margin: 0 auto; 
+    max-width: 800px;
+}
+
+#square{
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 25%;
+}
+
+h1{
+    text-transform:uppercase; 
+    
+    margin: 0 auto; 
+    max-width: 1000px;
+}
+
+.header>h1{
+    padding-top: 5px;
+    margin-top: 0;
+}
+
+#quesColor+h1{
+    padding-bottom: 5px;
+}
+
+#quesColor{
+    font-size: 3em;
+}
+
+.header{
+    background-color: #5875d3;
+    color: White;
+}
+
+.middle{
+    background-color: white;
+    color: #5875d3;
+    text-align: center;
+}
+
+.selected{
+    background-color: #5875d3;
+}
+
+button {
+    background-color: white;
+}
