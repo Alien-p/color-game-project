@@ -3,58 +3,86 @@ body {
     text-align: center;
     margin-top: 0; 
     margin: 0;
-    font-family: 'Ubuntu', sans-serif;
+    
+    
 }
 
 .container {
     margin: 0 auto; 
     max-width: 800px;
+    padding-top: 30px;
 }
 
-#square{
+#square {
     width: 30%;
     background: purple;
     padding-bottom: 30%;
     float: left;
     margin: 1.66%;
     border-radius: 25%;
+    transition: background 0.5s;
 }
 
-h1{
+h1 {
+    font-family: "Montserrat", "Avenir";
     text-transform:uppercase; 
-    
-    margin: 0 auto; 
-    max-width: 1000px;
+    margin: 0;
+    font-weight: normal;
+    padding: 20px 0;
+    line-height: 1.1;
 }
 
-.header>h1{
+.header>h1 {
     padding-top: 5px;
     margin-top: 0;
 }
 
-#quesColor+h1{
-    padding-bottom: 5px;
+#quesColor {
+    font-size: 2em;
 }
 
-#quesColor{
-    font-size: 3em;
-}
-
-.header{
-    background-color: #5875d3;
+.header {
+    background-color: steelblue;
     color: White;
 }
 
-.middle{
+.middle {
     background-color: white;
-    color: #5875d3;
     text-align: center;
+    height: 30px;
+    
 }
 
-.selected{
-    background-color: #5875d3;
+.selected {
+    background-color: steelblue;
+    color: white;
 }
 
 button {
-    background-color: white;
+    font-family: "Montserrat", "Avenir";
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    padding-top: 0; 
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.2s;
+    outline: none;
+}
+button:hover {
+    background-color: steelblue;
+    color: white;
+}
+
+#result {
+    display: inline-block;
+    width: 100px; 
+    color: steelblue;
+    font-weight: 700;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-family: "Montserrat", "Avenir";
 }
